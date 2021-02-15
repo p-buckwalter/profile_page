@@ -53,12 +53,25 @@ nav ul li {
 #bio {
   height: auto;
   padding: 1rem;
+  flex-shrink: 1;
 }
 #head-shot {
   height: auto;
   padding: 1rem;
+  flex-shrink: 1;
 }
 
-.bio p {
+#bio p {
   text-align: justify;
 }
+
+#intro .column {
+  width: 450px;
+  height: auto;
+}
+
+#empty {
+  flex-shrink: 4;
+}
+
+

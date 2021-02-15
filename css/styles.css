@@ -50,21 +50,13 @@ nav ul li {
   font-size: 1.2rem;
 }
 
-#empty {
-  flex-shrink: 3;
-}
-
 #bio {
-  width: 200px;
   height: auto;
   padding: 1rem;
-  flex-shrink: 1;
 }
 #head-shot {
-  width: 200px;
   height: auto;
   padding: 1rem;
-  flex-shrink: 1;
 }
 
 .bio p {

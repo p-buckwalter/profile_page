@@ -72,21 +72,19 @@ nav ul li {
   padding: 1rem;
   flex-shrink: 1;
 }
+
+#bio p {
+  text-align: justify;
+}
+
 #head-shot {
   height: auto;
   padding: 1rem;
   flex-shrink: 1;
 }
 
-#bio p {
-  text-align: justify;
-}
-
-#intro .column {
-  width: 450px;
+#head-shot img {
+  width: 100%;
   height: auto;
 }
 
-#empty {
-  flex-shrink: 4;
-}

@@ -55,11 +55,13 @@ nav ul li {
 }
 
 #bio {
+  width: 200px;
   height: auto;
   padding: 1rem;
   flex-shrink: 1;
 }
 #head-shot {
+  width: 200px;
   height: auto;
   padding: 1rem;
   flex-shrink: 1;

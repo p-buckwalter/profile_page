@@ -50,8 +50,8 @@ nav ul li {
   font-size: 1.2rem;
 }
 
-#intro {
-  align-items: flex-start;
+#empty {
+  flex-shrink: 3;
 }
 
 .bio {

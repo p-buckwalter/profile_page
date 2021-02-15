@@ -54,15 +54,15 @@ nav ul li {
   flex-shrink: 3;
 }
 
-.bio {
-  
+#bio {
   height: auto;
   padding: 1rem;
+  flex-shrink: 1;
 }
-.head-shot {
-  
+#head-shot {
   height: auto;
   padding: 1rem;
+  flex-shrink: 1;
 }
 
 .bio p {

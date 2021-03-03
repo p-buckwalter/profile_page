@@ -250,6 +250,14 @@ header svg {
   }
 }
 
+@media screen and (max-width: 450px) {
+  header svg {
+    width: 30px;
+    height: auto;
+    top: 60px;
+  }
+}
+
 main {
   grid-area: main;
 }

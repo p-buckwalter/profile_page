@@ -41,11 +41,11 @@ html {
 }
 
 header {
-  height: 200px;
+  height: 100px;
 }
 header h1,
 header h3 {
-  text-align: center;
+  text-align: left;
 }
 
 nav {

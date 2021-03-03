@@ -9,23 +9,27 @@
     />
     <title>Peter Buckwalter - About</title>
   </head>
-  <body class="container">
-    <header>
+  <body class="grid-container">
+    <header class="sticky">
+      <section>
         <h1 class="title">Peter Buckwalter</h1>
         <h3 class="title">Web Developer</h3>
+      </section>
       <nav>
         <ul>
           <li><a href="#">About</a></li>
           <li><a href="#">Skills</a></li>
           <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Hire me</a></li>
+          <li>
+            <a href="#"><button class="hire-me-button">Hire me!</button></a>
+          </li>
         </ul>
       </nav>
     </header>
-<!--
+
     <main>
-      <section class="row" id="intro">
-        <section class="column ._25" id="bio">
+      <section class="flex-container">
+        <section class="bio">
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -38,14 +42,11 @@
             PageMaker including versions of Lorem Ipsum.
           </p>
         </section>
-        <section class="column ._25" id="head-shot">
-          <img
-            src="../../images/Profile Pic.jpg"
-            alt="Peter Buckwalter"
-          />
+
+        <section class="head-shot">
+          <img src="../../images/Profile Pic.jpg" alt="Peter Buckwalter" />
         </section>
-        
       </section>
-    </main>-->
+    </main>
   </body>
 </html>

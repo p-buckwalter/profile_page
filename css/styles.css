@@ -32,6 +32,10 @@ header {
   grid-area: header;
 }
 
+.head-shot img {
+  width: 90px;
+}
+
 nav ul {
   display: inline;
 }
@@ -222,13 +226,9 @@ main {
 .bio {
   max-width: 450px;
   text-align: justify;
-  padding-right: 5px;
 }
 
-.head-shot {
-  max-width: 50px;
-  padding-left: 5px;
-}
+
 
 footer {
   grid-area: footer;

@@ -256,6 +256,9 @@ header svg {
     height: auto;
     top: 60px;
   }
+  header .head-shot {
+    display: none;
+  }
 }
 
 main {

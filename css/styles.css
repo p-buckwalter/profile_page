@@ -17,7 +17,7 @@ html {
     "footer footer footer footer";
 }
 
-header {
+.title {
   grid-area: logo;
 }
 nav {

@@ -9,11 +9,11 @@ html {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr 1fr; 
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
   grid-template-rows: 150px auto auto; 
   grid-template-areas:
     "header header header header"
-    ". main main ."
+    "main main main main"
     "footer footer footer footer";
 }
 
@@ -225,11 +225,9 @@ main {
 }
 
 .bio {
-  max-width: 450px;
+  max-width: 1200px;
   text-align: justify;
 }
-
-
 
 footer {
   grid-area: footer;

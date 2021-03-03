@@ -18,9 +18,7 @@ html {
 }
 
 .title {
-  grid-area: logo;
-}
-.nav {
   grid-area: nav;
 }
+
 

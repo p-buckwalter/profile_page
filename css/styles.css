@@ -20,7 +20,7 @@ html {
 .title {
   grid-area: logo;
 }
-nav {
+.nav {
   grid-area: nav;
 }
 

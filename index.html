@@ -18,7 +18,7 @@
         <h1>Peter Buckwalter</h1>
         <h3>Web Developer</h3>
       </section>
-      <svg class="sidemenu" viewBox="0 0 100 80" width="40" height="40">
+      <svg onclick="openNav()" class="sidemenu" viewBox="0 0 100 80" width="40" height="40">
         <rect width="100" height="20"></rect>
         <rect y="30" width="100" height="20"></rect>
         <rect y="60" width="100" height="20"></rect>
@@ -34,6 +34,7 @@
         </ul>
       </nav>
       <div class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <ul>
           <li><a href="#">About</a></li>
           <li><a href="#">Skills</a></li>

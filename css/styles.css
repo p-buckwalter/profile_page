@@ -247,11 +247,13 @@ nav ul li a {
   }
   .sidemenu {
     display: inline-block;
+    margin-top: 70px;
   }
+
 }
 
 @media screen and (max-width: 450px) {
-  header svg {
+  .sidemenu {
     width: 30px;
     height: auto;
     margin-top: 70px;

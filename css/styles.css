@@ -30,6 +30,7 @@ header {
   align-items: center;
   border-bottom: 3px solid #ff5205;
   grid-area: header;
+  background-color: #ffffff;
 }
 
 .head-shot img {

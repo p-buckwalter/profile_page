@@ -185,7 +185,7 @@ nav ul li a {
   opacity: 0;
 }
 
-.sidenav {
+.mySidenav {
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */

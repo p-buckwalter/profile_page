@@ -62,7 +62,7 @@ nav ul li a {
   font-weight: 500;
 }
 
-header svg {
+.sidemenu {
   display: none;
 }
 .sticky {
@@ -245,8 +245,7 @@ header svg {
   header {
     padding-left: 10px;
   }
-
-  header svg {
+  .sidemenu {
     display: inline-block;
   }
 }

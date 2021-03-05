@@ -26,7 +26,7 @@ html {
 header {
   display: flex !important;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   border-bottom: 3px solid #ff5205;
   grid-area: header;

@@ -83,6 +83,12 @@ border-bottom-style: solid;
 border-bottom-width: 1px;
 }
 
+.intro img {
+  width: 100px;
+  height:auto;
+  border-radius: 50%;
+}
+
 #sideNav {
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */

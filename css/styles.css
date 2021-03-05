@@ -38,9 +38,8 @@ header {
   height: 60px;
 }
 
-
-header h1{
- font-size: 1.5rem;
+header h1 {
+  font-size: 1.5rem;
 }
 
 nav ul {
@@ -77,12 +76,12 @@ nav ul li a {
 }
 
 .intro {
-background-color: rgb(245, 248, 250);
-border-bottom-color: rgba(0, 0, 0, 0.125);
-border-bottom-style: solid;
-border-bottom-width: 1px;
-width: 100%;
-
+  background-color: rgb(245, 248, 250);
+  border-bottom-color: rgba(0, 0, 0, 0.125);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  width: 100%;
+  padding: 50px 0;
 }
 
 .headshot {
@@ -91,7 +90,7 @@ width: 100%;
 }
 .intro img {
   width: 100px;
-  height:auto;
+  height: auto;
   border-radius: 50%;
 }
 .intro h1,

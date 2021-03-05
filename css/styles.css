@@ -214,7 +214,7 @@ nav ul li a {
 }
 
 /* Position and style the close button (top right corner) */
-.sidenav .closebtn {
+#mySidenav .closebtn {
   position: absolute;
   top: 0;
   right: 25px;

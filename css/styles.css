@@ -82,6 +82,7 @@ border-bottom-color: rgba(0, 0, 0, 0.125);
 border-bottom-style: solid;
 border-bottom-width: 1px;
 width: 100%;
+justify-content: center;
 }
 
 .intro img {

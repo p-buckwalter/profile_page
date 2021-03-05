@@ -209,7 +209,7 @@ nav ul li a {
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
+#mySidenav a:hover {
   color: #f1f1f1;
 }
 
@@ -220,6 +220,8 @@ nav ul li a {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+  color: #f1f1f1;
+  text-decoration: none;
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
@@ -230,10 +232,10 @@ nav ul li a {
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-  .sidenav {
+  #mySidenav {
     padding-top: 15px;
   }
-  .sidenav a {
+  #mySidenav a {
     font-size: 18px;
   }
 }

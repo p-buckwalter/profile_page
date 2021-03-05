@@ -236,7 +236,7 @@ nav ul li a {
   text-decoration: none;
 }
 
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+/* Transition page right */
 #main {
   transition: margin-left 0.5s;
 }

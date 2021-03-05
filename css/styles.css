@@ -81,12 +81,17 @@ background-color: rgb(245, 248, 250);
 border-bottom-color: rgba(0, 0, 0, 0.125);
 border-bottom-style: solid;
 border-bottom-width: 1px;
+width: 100%;
 }
 
 .intro img {
   width: 100px;
   height:auto;
   border-radius: 50%;
+}
+.intro h1,
+.intro h3 {
+  text-align: center;
 }
 
 #sideNav {
@@ -176,13 +181,6 @@ border-bottom-width: 1px;
 
 main {
   grid-area: main;
-}
-
-.bio {
-  max-width: 1200px;
-  text-align: justify;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 footer {

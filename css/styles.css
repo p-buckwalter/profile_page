@@ -36,7 +36,7 @@ header {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .2rem;
-  height: 58px;
+  height: 55px;
 }
 
 header h1 {
@@ -64,7 +64,7 @@ header h1 {
 }
 
 #mainNav a:hover {
-  background-color: #;
+  background-color: rgb(245, 248, 250);
   height: 100%;
   width: 100%;
 }

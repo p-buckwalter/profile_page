@@ -200,13 +200,22 @@ nav ul li a {
 }
 
 /* The navigation menu links */
-.sidenav a {
+#mySidenav a {
   padding: 8px 20px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
   color: #000;
   display: block;
   transition: 0.3s;
+  font-family: var(
+    --pure-material-font,
+    "Roboto",
+    "Segoe UI",
+    BlinkMacSystemFont,
+    system-ui,
+    -apple-system
+  );
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 /* When you mouse over the navigation links, change their color */

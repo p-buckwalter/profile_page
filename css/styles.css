@@ -27,7 +27,7 @@ header {
   display: flex !important;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-start;
   border-bottom: 3px solid #ff5205;
   grid-area: header;
   background-color: #ffffff;

@@ -33,11 +33,6 @@ header {
   background-color: #ffffff;
 }
 
-.head-shot img {
-  width: 90px;
-  padding-right: 5px;
-}
-
 nav ul {
   display: inline;
 }
@@ -272,9 +267,7 @@ nav ul li a {
     margin-top: 60px;
     margin-right: 20px;
   }
-  header .head-shot {
-    display: none;
-  }
+  
 }
 
 main {

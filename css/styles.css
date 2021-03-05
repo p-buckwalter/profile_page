@@ -38,7 +38,7 @@ header {
 }
 
 header h1{
- font-size: 1rem;
+ font-size: 1.5rem;
 }
 
 nav ul {
@@ -61,7 +61,7 @@ nav ul li a {
     system-ui,
     -apple-system
   );
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 

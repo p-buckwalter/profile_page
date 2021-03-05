@@ -10,7 +10,7 @@ html {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 150px auto auto;
+  grid-template-rows: 55px auto auto;
   grid-template-areas:
     "header header header header"
     "main main main main"

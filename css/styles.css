@@ -82,9 +82,13 @@ border-bottom-color: rgba(0, 0, 0, 0.125);
 border-bottom-style: solid;
 border-bottom-width: 1px;
 width: 100%;
-justify-content: center;
+
 }
 
+.headshot {
+  width: 100px;
+  margin: 0 auto;
+}
 .intro img {
   width: 100px;
   height:auto;

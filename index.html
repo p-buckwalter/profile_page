@@ -7,9 +7,17 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css"
     />
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Montserrat:400,700">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Montserrat:400,700"
+    />
     <title>Peter Buckwalter - About</title>
-    <link rel="shortcut icon" type="image/x-icon" href="../../images/favicon.ico"/>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="../../images/favicon.ico"
+    />
   </head>
 
   <body id="main" class="grid-container">
@@ -17,7 +25,13 @@
       <section class="title">
         <h1>Peter Buckwalter</h1>
       </section>
-      <svg onclick="openNav()" class="sidemenu" viewBox="0 0 100 80" width="40" height="40">
+      <svg
+        onclick="openNav()"
+        class="sidemenu"
+        viewBox="0 0 100 80"
+        width="40"
+        height="40"
+      >
         <rect width="100" height="20"></rect>
         <rect y="30" width="100" height="20"></rect>
         <rect y="60" width="100" height="20"></rect>
@@ -27,9 +41,7 @@
           <li><a href="#">About</a></li>
           <li><a href="#">Skills</a></li>
           <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Hire Me!</a>
-            <!-- <a href="#"><button class="hire-me-button">Hire me!</button></a> -->
-          </li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </nav>
       <div id="mySidenav">
@@ -37,35 +49,18 @@
         <a class="sidelink" href="#">About</a>
         <a class="sidelink" href="#">Skills</a>
         <a class="sidelink" href="#">Portfolio</a>
-        <a href="#"><button class="hire-me-button">Hire me!</button></a>
+        <a class="sidelink" href="#">Contact</a>
       </div>
-
-      <header class="bg-splash-gray px3 py3 border-bottom border-light-gray">
-<div class="center">
-<a href="">
-<img data-src="/assets/img/profile-photos/yevgeniy-brikman-medium.jpg" alt="Yevgeniy Brikman" class=" border bg-white p1 border-light-gray circle square-100 lazyloaded" src="/assets/img/profile-photos/yevgeniy-brikman-medium.jpg">
-</a>
-<div class="clearfix">
-<a href="https://www.ybrikman.com/">
-<h1 class="page-title mt0 mb1">
-Yevgeniy Brikman
-</h1>
-</a>
-</div>
-<h2 class="page-description body-font gray mt0 h3 regular">
-Co-founder of <a href="https://www.gruntwork.io/?ref=ybrikman-home-header" target="_blank">Gruntwork</a><br>
-Author of <em><a href="https://www.hello-startup.net/?ref=ybrikman-home" target="_blank">Hello, Startup</a></em> and
-<em><a href="https://www.terraformupandrunning.com/?ref=ybrikman-home" target="_blank">Terraform: Up &amp; Running</a></em>
-</h2>
-</div>
-</header>
+      <section class="intro">
+        <img src="../../images/Profile Pic.jpg" alt="Peter Buckwalter's Head Shot">
+        <h1>Peter Buckwalter</h1>
+        <h3>Web Developer & Product Builder</h3>
+      </section>
     </header>
 
     <main>
       <section class="flex-container">
-        <section class="bio">
-          
-        </section>
+        <section class="bio"></section>
       </section>
     </main>
     <script>
@@ -73,14 +68,16 @@ Author of <em><a href="https://www.hello-startup.net/?ref=ybrikman-home" target=
         document.getElementById("mySidenav").style.width = "250px";
         document.getElementById("main").style.marginLeft = "250px";
         document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-        document.getElementById("mySidenav").style.borderRight = "3px solid #ff5205";
+        document.getElementById("mySidenav").style.borderRight =
+          "3px solid #ff5205";
       }
-      
+
       function closeNav() {
         document.getElementById("mySidenav").style.width = "0";
         document.getElementById("main").style.marginLeft = "0";
         document.body.style.backgroundColor = "white";
         document.getElementById("mySidenav").style.borderRight = "none";
-      }</script>
+      }
+    </script>
   </body>
 </html>

@@ -58,14 +58,6 @@ header h1 {
 #mainNav a {
   text-decoration: none;
   color: black;
-  font-family: var(
-    --pure-material-font,
-    "Roboto",
-    "Segoe UI",
-    BlinkMacSystemFont,
-    system-ui,
-    -apple-system
-  );
   font-size: 1rem;
   font-weight: 500;
   padding: 1rem;

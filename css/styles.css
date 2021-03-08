@@ -17,11 +17,7 @@ html {
     "footer footer footer footer";
 }
 
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+
 
 header {
   display: flex !important;

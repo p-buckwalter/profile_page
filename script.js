@@ -1,15 +1,29 @@
+function openNav() {
+  let sideNavigation = document.getElementById("sideNav");
+  if (sideNavigation) {
+    sideNavigation.style.width = "100%";
+    sideNavigation.style.borderRight = "3px solid #ff5205";
+  }
 
-      function openNav() {
-        document.getElementById("sideNav").style.width = "250px";
-        document.getElementById("main").style.marginLeft = "250px";
-        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-        document.getElementById("sideNav").style.borderRight =
-          "3px solid #ff5205";
-      }
+  let mainClass = document.getElementById("main");
+  if (mainClass) {
+    mainClass.style.marginLeft = "250px";
+  }
 
-      function closeNav() {
-        document.getElementById("sideNav").style.width = "0";
-        document.getElementById("main").style.marginLeft = "0";
-        document.body.style.backgroundColor = "white";
-        document.getElementById("sideNav").style.borderRight = "none";
-      }
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  let sideNavigation = document.getElementById("sideNav");
+  if (sideNavigation) {
+    sideNavigation.style.width = "0";
+    sideNavigation.style.borderRight = "none";
+  }
+
+  let mainClass = document.getElementById("main");
+  if (mainClass) {
+    mainClass.style.marginLeft = "0";
+  }
+
+  document.body.style.backgroundColor = "white";
+}

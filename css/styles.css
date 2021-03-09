@@ -191,6 +191,10 @@ main {
   width: 80%;
 }
 
+.bio p {
+  text-align: center;
+}
+
 footer {
   grid-area: footer;
 }

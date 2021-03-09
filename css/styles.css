@@ -197,10 +197,11 @@ main {
   margin: 0 auto;
 }
 
-.bio p,
-.bio h1 {
+.center {
   text-align: center;
 }
+
+
 
 footer {
   grid-area: footer;

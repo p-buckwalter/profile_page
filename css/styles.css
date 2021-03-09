@@ -82,27 +82,6 @@ header a{
   width: 100%;
 }
 
-.intro {
-  background-color: rgb(245, 248, 250);
-  border-bottom: solid 1px rgba(0, 0, 0, 0.125);
-  width: 100%;
-  padding: 50px 10px;
-}
-
-.headshot {
-  width: 100px;
-  margin: 0 auto;
-}
-.intro img {
-  width: 100px;
-  height: auto;
-  border-radius: 50%;
-}
-.intro h1,
-.intro h3 {
-  text-align: center;
-}
-
 #sideNav {
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
@@ -147,11 +126,6 @@ header a{
   text-decoration: none;
 }
 
-/* Transition page right */
-#main {
-  transition: margin-left 0.5s;
-}
-
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   #sideNav {
@@ -187,6 +161,34 @@ header a{
 
 main {
   grid-area: main;
+}
+
+
+.intro {
+  background-color: rgb(245, 248, 250);
+  border-bottom: solid 1px rgba(0, 0, 0, 0.125);
+  width: 100%;
+  padding: 50px 10px;
+}
+
+.headshot {
+  width: 100px;
+  margin: 0 auto;
+}
+.intro img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+.intro h1,
+.intro h3 {
+  text-align: center;
+}
+
+.bio {
+  display: flex;
+  justify-content: center;
+  width: 80%;
 }
 
 footer {

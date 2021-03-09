@@ -11,6 +11,11 @@ body {
   font-family: Montserrat, helvetica neue, Helvetica, Arial, sans-serif;
 }
 
+p {
+  letter-spacing: .1rem;
+  line-height: .2rem;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;

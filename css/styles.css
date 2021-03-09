@@ -192,7 +192,8 @@ main {
   margin: 0 auto;
 }
 
-.bio p {
+.bio p,
+.bio h1 {
   text-align: center;
 }
 

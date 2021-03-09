@@ -184,10 +184,6 @@ main {
   height: auto;
   border-radius: 50%;
 }
-.intro h1,
-.intro h3 {
-  text-align: center;
-}
 
 .bio {
   display: flex;

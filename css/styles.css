@@ -16,7 +16,7 @@ h1 {
 }
 
 p {
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   line-height: 1.5rem;
 }
 
@@ -30,8 +30,6 @@ p {
     "footer footer footer footer";
 }
 
-
-
 header {
   display: flex !important;
   flex-wrap: wrap;
@@ -43,7 +41,7 @@ header {
   padding: 0 10px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   height: 55px;
 }
 
@@ -51,7 +49,7 @@ header h1 {
   margin: 0;
 }
 
-header a{
+header a {
   text-decoration: none;
   color: #000;
 }
@@ -114,7 +112,7 @@ header a{
   font-size: 1.5rem;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
 }
 
 /* When you mouse over the navigation links */
@@ -142,7 +140,6 @@ header a{
   #sideNav a {
     font-size: 18px;
   }
-  
 }
 
 @media screen and (max-width: 1000px) {
@@ -170,7 +167,6 @@ header a{
 main {
   grid-area: main;
 }
-
 
 .intro {
   background-color: rgb(245, 248, 250);
@@ -209,4 +205,3 @@ main {
 footer {
   grid-area: footer;
 }
-

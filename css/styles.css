@@ -203,6 +203,7 @@ main {
   border-bottom: solid 1px rgba(0, 0, 0, 0.125);
   width: 100%;
   padding: 50px 10px;
+
 }
 
 .skills-container {
@@ -211,6 +212,7 @@ main {
   justify-content: space-between;
   flex-wrap: wrap;
   font-size: 2rem;
+  margin: 0 auto;
   }
 
 

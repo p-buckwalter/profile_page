@@ -7,6 +7,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  font-family: Montserrat, helvetica neue, Helvetica, Arial, sans-serif;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -28,7 +32,6 @@ header {
   grid-area: header;
   background-color: #ffffff;
   padding: 0 10px;
-  font-family: Montserrat, helvetica neue, Helvetica, Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .2rem;
@@ -123,7 +126,6 @@ header a{
   transition: 0.3s;
   font-size: 1.5rem;
   font-weight: 500;
-  font-family: Montserrat, helvetica neue, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: .2rem;
 }

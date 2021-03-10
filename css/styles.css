@@ -194,7 +194,7 @@ main {
 .bio {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  text-align: justify;
   width: 100%;
   margin: 0 auto;
   padding: 25px 10px;
@@ -265,6 +265,7 @@ main {
 .skill-description {
   width: 675px;
   padding: 10px;
+  text-align: justify;
 }
 
 #contact {

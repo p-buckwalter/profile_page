@@ -223,6 +223,7 @@ main {
 
 .skills-rank {
   display: flex;
+  width: 100%;
 }
 
 .skills-container {

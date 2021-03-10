@@ -224,6 +224,7 @@ main {
 .skills-rank {
   display: flex;
   flex-wrap: wrap;
+  padding: 10px;
 }
 
 .skills-rank h1 {

@@ -225,6 +225,8 @@ main {
 
 footer {
   grid-area: footer;
+  height: 200px;
+  background-color: rgb(245, 248, 250);
 }
 
 .skills-rank {

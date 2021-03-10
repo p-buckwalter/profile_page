@@ -226,6 +226,10 @@ main {
   width: 100%;
 }
 
+.skills-rank h1 {
+  text-align: center;
+}
+
 .skills-container {
   width: 100%;
   background-color: #ddd;

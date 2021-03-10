@@ -235,7 +235,7 @@ main {
 .skills-container {
   width: 50%;
   background-color: #ddd;
-  
+  padding: 10px;
 }
 
 .skills-graph {
@@ -252,6 +252,7 @@ main {
 
 .skill-description {
   width: 50%;
+  padding: 10px;
 }
 
 #contact {

@@ -226,7 +226,7 @@ main {
 
 
 .skills-rank {
-  grid-column-start: 3;
+  display: flex;
 }
 
 .skills-container {
@@ -244,13 +244,15 @@ main {
 .html {width: 90%; background-color: #4CAF50;}
 .css {width: 80%; background-color: #2196F3;}
 .js {width: 65%; background-color: #f44336;}
-.php {width: 60%; background-color: #808080;}
+.react {width: 60%; background-color: #808080;}
 
-
-footer {
-  grid-area: footer;
+#contact {
   height: 200px;
   background-color: rgb(245, 248, 250);
   border-top: 3px solid #ff5205;
   margin-top: 25px;
+}
+footer {
+  grid-area: footer;
+  height: 25px;
 }

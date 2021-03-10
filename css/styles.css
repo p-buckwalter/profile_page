@@ -215,6 +215,10 @@ main {
   margin: 0 auto;
   }
 
+  .skills-container i {
+    padding: 0 5px;
+  }
+
 
 
 footer {

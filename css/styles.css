@@ -41,7 +41,7 @@ header {
   grid-area: header;
   background-color: #ffffff;
   padding: 0 10px;
-  font-weight: 700;
+  font-weight: 700 !important;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   height: 55px;

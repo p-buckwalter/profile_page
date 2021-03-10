@@ -226,7 +226,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .skills-container {

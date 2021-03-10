@@ -194,7 +194,7 @@ main {
 .bio {
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
+  justify-content: center;
   width: 100%;
   margin: 0 auto;
   padding: 25px 20px;

@@ -228,13 +228,8 @@ main {
   padding: 10px;
 }
 
-.skills-rank h1 {
-  text-align: center;
-  width: 100%;
-}
-
 .skills-container {
-  width: 50%;
+  width: 500px;
   padding: 10px;
 }
 
@@ -267,7 +262,7 @@ main {
 }
 
 .skill-description {
-  width: 50%;
+  width: 500px;
   padding: 10px;
 }
 

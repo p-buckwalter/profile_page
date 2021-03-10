@@ -223,18 +223,19 @@ main {
 
 .skills-rank {
   display: flex;
-  width: 100%;
+  flex-wrap: wrap;
+  
 }
 
 .skills-rank h1 {
   text-align: center;
+  width: 100%;
 }
 
 .skills-container {
-  width: 100%;
+  width: 50%;
   background-color: #ddd;
-  margin: 10px;
-  border: solid 1px rgba(0, 0, 0, 0.125);
+  
 }
 
 .skills-graph {
@@ -248,6 +249,10 @@ main {
 .css {width: 80%; background-color: #2196F3;}
 .js {width: 65%; background-color: #f44336;}
 .react {width: 60%; background-color: #808080;}
+
+.skill-description {
+  width: 50%;
+}
 
 #contact {
   height: 200px;

@@ -194,10 +194,10 @@ main {
 .bio {
   display: flex;
   flex-wrap: wrap;
-  text-align: justify;
+  justify-content: center;
   width: 100%;
   margin: 0 auto;
-  padding: 25px 20px;
+  padding: 25px 10px;
 }
 
 .skills {
@@ -265,7 +265,6 @@ main {
 .skill-description {
   width: 675px;
   padding: 10px;
-  text-align: justify;
 }
 
 #contact {

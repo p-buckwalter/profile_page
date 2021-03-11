@@ -240,9 +240,8 @@ main {
 
 .skills-graph {
   text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
   color: white;
+  padding: 10px;
 }
 
 .html {

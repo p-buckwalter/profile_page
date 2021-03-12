@@ -286,6 +286,7 @@ main {
 .sites-card {
   width: 400px;
   height: auto;
+  padding: 25px;
 }
 
 .sites img {

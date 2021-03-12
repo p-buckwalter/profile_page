@@ -283,6 +283,11 @@ main {
 
 }
 
+.sites-card {
+  width: 400px;
+  height: auto;
+}
+
 .sites img {
   width: 350px;
   height: 185px;

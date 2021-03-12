@@ -294,12 +294,6 @@ main {
   height: 185px;
 }
 
-.sites img:hover {
-  width: 350px;
-  height: 185px;
-  
-}
-
 /* The overlay effect - lays on top of the container and over the image */
 .overlay {
   position: absolute; 
@@ -317,7 +311,7 @@ main {
 }
 
 /* When you mouse over the container, fade in the overlay title */
-.container:hover .overlay {
+.sites-card:hover .overlay {
   opacity: 1;
 }
 

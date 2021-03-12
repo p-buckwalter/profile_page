@@ -266,18 +266,18 @@ main {
   padding: 10px;
 }
 
-#portfolio {
+.sites {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 100%;
   margin: 0 auto;
   padding: 25px 20px;
 
 }
 
-#portfolio img {
-  width: 100px;
+.sites img {
+  width: 350px;
   height: auto;
 }
 

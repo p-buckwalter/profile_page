@@ -266,6 +266,13 @@ main {
   padding: 10px;
 }
 
+#portfolio {
+  background-color: rgb(245, 248, 250);
+  border-bottom: solid 1px rgba(0, 0, 0, 0.125);
+  width: 100%;
+  padding: 25px 10px;
+}
+
 .sites {
   display: flex;
   flex-wrap: wrap;

@@ -299,11 +299,15 @@ main {
 }
 
 #contact {
-  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 0 auto;
+  padding: 25px 20px;
 }
 footer {
   grid-area: footer;
-  height: 25px;
   border-top: 3px solid #ff5205;
   margin-top: 25px;
 }

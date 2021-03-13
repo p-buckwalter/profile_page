@@ -305,9 +305,9 @@ footer {
   grid-area: footer;
   height: 25px;
   border-top: 3px solid #ff5205;
-  margin: 25px 0;
+  margin-top: 25px;
 }
 
 footer p {
-  margin: 0 25px;
+  margin: 25px;
 }
